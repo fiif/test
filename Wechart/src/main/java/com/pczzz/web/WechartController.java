@@ -18,6 +18,7 @@ public class WechartController {
         String cd = request.getParameter("code");
         WXUser user = wechartService.wxLogin(code);
 
+		//github提交信息
         //下面我就简单输出了，获取了user，可以根据需求自己进行相应操作了
         if (user == null){
             System.out.println("登录失败");
