@@ -29,3 +29,4 @@ public class WechartController {
     }
 
 }
+//github是正规
