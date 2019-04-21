@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pczzz.dao.WechartDao" >
+
+
+    <select id="findByOpenid" parameterType="string" resultType="com.pczzz.domain.WXUser">
+        select * from wx_user where openid = #{openId}
+    </select>
+
+    <insert id="save" parameterType="cn.itcast.domain.system.WXUser">
+-- 自己填写
+    </insert>
+
+
+</mapper>
